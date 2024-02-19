@@ -15,11 +15,12 @@ String p_name;
 	void read()
 	{
 	Scanner sc=new Scanner(System.in);
-		System.out.println("Enter datails of first product:");
+	Scanner st=new Scanner(System.in);
+		System.out.println("Enter details of product:");
 		System.out.print("Product Code: ");
 		p_code=sc.nextInt();
 		System.out.print("Product Name: ");
-		p_name=sc.nextLine();
+		p_name=st.nextLine();
 		System.out.print("Price: ");
 		price=sc.nextInt();
 	}
