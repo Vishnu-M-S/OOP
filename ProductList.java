@@ -6,9 +6,9 @@ String p_name;
 
 /*void Product(int p_code,String p_name,int price)
 {
-	self.p_code=p_code;
-	self.p_name=p_name;
-	self.price=price;
+	this.p_code=p_code;
+	this.p_name=p_name;
+	this.price=price;
 
 }*/
 
